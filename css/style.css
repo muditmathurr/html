@@ -16,7 +16,7 @@ h1 {
     font-size: 10px;
 }
 
-/* set2 */
+/* set2 and 3 traffic light , header(nav), content, footer */
 * {
     padding: 0px;
     margin: 0px;
@@ -113,19 +113,68 @@ footer {
 }
 
 
-/* set 4 */
-
-#outer {
+/* set 4 % em rem */
+/* % */
+/* #outer {
+    font-size: 30px;
     margin: auto;
     height: 200px;
     width: 200px;
-    border: 2px solid black;
     background-color: rgba(20,33,66,0.5);
 }
 
 #inner {
     height: 50%;
-    margin: 5px;
-    border: 2px solid black;
+    width: 50%;
     background-color: rgba(50,200,20,1);
+} */
+
+/* em */
+/* #outer {
+    font-size: 30px;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(20,33,66,0.5);
+}
+
+#inner {
+    height: 50%;
+    font-size: 1.5em;
+    margin: 5px;
+    background-color: rgba(50,200,20,1);
+} */
+
+/* rem */
+
+#outer {
+    font-size: 30px;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(20,33,66,0.5);
+}
+
+#inner {
+    height: 50%;
+    width: 6rem;
+    margin: 5px;
+    background-color: rgba(50,200,20,1);
+}
+
+/* set 5 - Positions */
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div {
+    height: 300px;
+    width: 300px;
+    background-image: url(dog.avif);
+    background-size: cover;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 0
 }
